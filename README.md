@@ -1,2 +1,2 @@
-# wanker-privacy-policy
-Privacy policy for wanker
+# solo_streak-privacy-policy
+Privacy policy for Solo Streak
