@@ -1,134 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Wanker</title>
+    <title>Privacy Policy - Solo Streak</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
-        }
-
-        h1,
-        h2 {
             color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #1a1a1a;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .footer-info {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 20px;
         }
     </style>
 </head>
-
 <body>
 
-    # Privacy Policy
+    <h1>Privacy Policy for Solo Streak</h1>
+    <p><strong>Effective Date:</strong> July 21, 2026<br>
+    <strong>Last Updated:</strong> July 21, 2026</p>
 
-    **Effective Date:** July 12, 2026
+    <p><strong>Ikitai Apps</strong> ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how our mobile application, <strong>Solo Streak</strong>, collects, uses, and safeguards information when you use the app.</p>
 
-    Thank you for using **Wanker** ("the App"), developed by **Ikitai Apps** ("we", "our", or "us"). This Privacy Policy
-    explains how information is handled when you use the App.
+    <h2>1. Information Collection and Storage</h2>
+    <p>Solo Streak is designed with privacy as a priority.</p>
+    <ul>
+        <li><strong>Local Device Storage:</strong> We do <strong>not</strong> collect, transmit, or store any personal identification information (such as your name, email address, IP address, or location) on external servers.</li>
+        <li><strong>On-Device Data:</strong> All application data—including timer duration, active countdown state, and selected motivational quotes—is stored locally on your device using <code>SharedPreferences</code>. This data never leaves your device and is erased if you uninstall or clear the app data.</li>
+    </ul>
 
-    ## Information We Collect
+    <h2>2. Device Permissions and Services</h2>
+    <p>To function properly, Solo Streak utilizes the following device permissions and background services:</p>
+    <ul>
+        <li><strong>Foreground Service &amp; System Notifications:</strong> The app uses a background foreground service (<code>flutter_foreground_task</code>) solely to display a persistent notification showing your active countdown timer when the app is minimized.</li>
+        <li><strong>Audio Playback:</strong> The app accesses device media services strictly to play the local alarm audio file (<code>alarm.mp3</code>) when a timer reaches zero.</li>
+        <li><strong>Notification Permissions:</strong> We request permission to send local notifications so you receive completion alerts when your timer finishes.</li>
+    </ul>
 
-    The App is designed to operate primarily on your device.
+    <h2>3. Third-Party Services and Advertising</h2>
+    <p>Solo Streak may display advertisements served by Google AdMob. Third-party vendors, including Google, use cookies or device advertising identifiers to serve ads based on non-personally identifiable usage patterns.</p>
+    <ul>
+        <li>Google’s use of advertising cookies enables it and its partners to serve ads based on your visit to our application and/or other sites on the Internet.</li>
+        <li>You can manage or opt out of personalized advertising in your device’s Google Settings (<code>Settings &gt; Google &gt; Ads</code>).</li>
+        <li>For more information on how Google handles data, please visit <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google’s Privacy &amp; Terms</a>.</li>
+    </ul>
 
-    ### Information You Provide
+    <h2>4. Children’s Privacy</h2>
+    <p>Solo Streak does not knowingly collect or solicit personal information from children under the age of 13. Because no personal data is collected or transmitted by the app, no children’s data is stored or shared.</p>
 
-    The App may store information that you choose to enter, such as timer settings, session history, preferences, and
-    other app-related data. This information is stored locally on your device unless otherwise stated.
+    <h2>5. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. Any changes will be reflected by updating the "Effective Date" at the top of this policy. You are advised to review this policy periodically for any updates.</p>
 
-    ### Automatically Collected Information
-
-    If the App displays advertisements or uses third-party services, certain technical information may be collected
-    automatically, including:
-
-    * Device information
-    * Operating system version
-    * Advertising identifiers
-    * IP address
-    * Crash reports
-    * Diagnostic information
-
-    This information may be collected by third-party service providers.
-
-    ## Advertising
-
-    The App may use **Google AdMob** to display advertisements.
-
-    Google AdMob may collect and process certain information to provide and personalize ads, measure advertising
-    performance, and prevent fraud.
-
-    For more information, please review Google's Privacy Policy:
-
-    https://policies.google.com/privacy
-
-    and
-
-    https://support.google.com/admob
-
-    ## How We Use Information
-
-    Information may be used to:
-
-    * Provide and maintain the App
-    * Save your preferences
-    * Improve app performance and reliability
-    * Display advertisements
-    * Diagnose and fix technical issues
-
-    ## Data Storage
-
-    Unless explicitly stated otherwise, your personal timer data and preferences remain on your device.
-
-    We do not intentionally upload your personal timer history to our own servers.
-
-    ## Data Sharing
-
-    We do not sell your personal information.
-
-    However, information may be shared with trusted third-party services that help operate the App, such as:
-
-    * Google AdMob
-    * Google Play Services
-
-    These providers process data according to their own privacy policies.
-
-    ## Children's Privacy
-
-    The App is not directed toward children under the age of 13.
-
-    We do not knowingly collect personal information from children. If you believe that a child has provided personal
-    information, please contact us so appropriate action can be taken.
-
-    ## Security
-
-    We take reasonable measures to protect information handled by the App. However, no method of electronic storage or
-    transmission is completely secure, and we cannot guarantee absolute security.
-
-    ## Your Choices
-
-    You may stop using the App at any time by uninstalling it from your device.
-
-    If the App stores information locally, uninstalling the App may remove that information unless you have created your
-    own backups.
-
-    ## Changes to This Privacy Policy
-
-    We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated
-    effective date.
-
-    ## Contact Us
-
-    If you have any questions about this Privacy Policy, please contact us at:
-
-    **Email:** [your-email@example.com](mailto:your-email@example.com)
-
-    ---
-
-    **Developer:** Ikitai Apps
+    <h2>6. Contact Us</h2>
+    <p>If you have any questions or suggestions regarding this Privacy Policy, please contact us at:</p>
+    
+    <div class="footer-info">
+        <p><strong>Company Name:</strong> Ikitai Apps<br>
+        <strong>Email:</strong> <a href="mailto:getterromance@gmail.com">getterromance@gmail.com</a></p>
+    </div>
 
 </body>
-
 </html>
